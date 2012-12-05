@@ -1,0 +1,8 @@
+#!/bin/bash -eux
+
+# lots of commands
+locate git-clone | grep git-clone$
+cd $(dirname $(locate git-clone | grep git-clone$))
+ls
+ls | wc -l
+for i in *; do [ ! -L $i ] && [ -x $i ] && [ ! -d $i ] && echo $i; done | wc -l
