@@ -1,0 +1,14 @@
+make a repo and look through it
+add revisions and see what changes
+
+make a clone and a bare clone, do a push and pull
+put a repo on github
+get the tool I built, and use it to create a repo
+
+make branches and tags and show the branching structure with gitg/gitk
+look at what those are, and remove them
+
+gaze at all the git commands and git help
+make a new git command
+
+get git-flow and use it
